@@ -1,0 +1,36 @@
+$sbs: #1B1729;
+
+/* WRAPPER*/
+.show-content.user_content  {
+max-width: 1080px;
+}
+
+.progress-container {
+    width: 100%;
+    max-width: 60vw;
+    height: 8px;
+    background: #ccc;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 200ms ease-in;
+    opacity: 1;
+    pointer-events: none;
+    .progress-bar {
+        height: 8px;
+        background: #501D82;
+        width: 0%;
+        pointer-events: none;
+    }
+}
+
+#hidden,
+.hidden {
+    display: none;
+}
+
+
+.page-title{
+    display: none;
+    }

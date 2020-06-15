@@ -19,6 +19,6 @@
         document.getElementsByTagName("head")[0].appendChild(script);
     }
 
-    loadScript("https://github.com/Construct-Education/constr-sbs-demo/blob/master/js/app.js", function () { 
+    loadScript("https://combinatronics.com/Construct-Education/constr-sbs-demo/master/js/app.js", function () { 
     });
 })();

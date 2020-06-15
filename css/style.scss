@@ -1,8 +1,8 @@
 $sbs: #1B1729;
 
 /* WRAPPER*/
-.show-content.user_content  {
-max-width: 1080px;
+.show-content.user_content {
+    max-width: 1080px;
 }
 
 .progress-container {
@@ -17,6 +17,7 @@ max-width: 1080px;
     transition: opacity 200ms ease-in;
     opacity: 1;
     pointer-events: none;
+
     .progress-bar {
         height: 8px;
         background: #501D82;
@@ -31,6 +32,7 @@ max-width: 1080px;
 }
 
 
-.page-title{
+/*HIDE THE PAGE TITLE*/
+.page-title {
     display: none;
-    }
+}

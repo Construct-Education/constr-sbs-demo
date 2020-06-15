@@ -47,3 +47,6 @@ function moveProgressBar() {
 
     document.getElementById("custom-progress-bar").style.width = scrolled + "%";
 }
+
+
+console.log('test')

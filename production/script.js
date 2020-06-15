@@ -19,6 +19,6 @@
         document.getElementsByTagName("head")[0].appendChild(script);
     }
 
-    loadScript("https://learntech.medsci.ox.ac.uk/canvas-script-repository/canvas-where-am-I/canvas-where-am-I.js", function () { 
+    loadScript("https://github.com/Construct-Education/constr-sbs-demo/blob/master/js/app.js", function () { 
     });
 })();
